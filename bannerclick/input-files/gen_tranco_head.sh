@@ -1,1 +1,0 @@
-head -n $1 Tranco5Nov.csv > Tranco5Nov_Custom.csv
