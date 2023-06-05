@@ -25,7 +25,7 @@ update the description of the field here.
 | crawl_id    | uint32 | False    |             |
 | instance_id | uint32 | False    |             |
 | site_url    | string | False    |             |
-| site_rank   | uint32 |          |
+| site_rank   | uint32 |          | 
 
 ## crawl_history
 
@@ -220,3 +220,9 @@ update the description of the field here.
 | ----------- | ------ | -------- | ----------- |
 | visit_id    | int64  | False    |             |
 | instance_id | uint32 | False    |
+
+## visits
+
+| Column Name | Type   | nullable | Description |
+| ----------- | ------ | -------- | ----------- |
+| visit_id    | int64  |          | Not the same visit_id as used in other contexts. Seems to be similar to site_rank in site_visits. |
