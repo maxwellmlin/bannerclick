@@ -436,3 +436,5 @@ Traceback (most recent call last):
 KeyboardInterrupt: 
 ^C
 (openwpm) mml66@vcm-34205:~/Desktop/bannerclick$ 
+
+Ended prematurely at site=100.
