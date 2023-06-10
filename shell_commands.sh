@@ -1,1 +1,0 @@
-python demo.py --bannerclick --headless --num-browsers 8 --num-repetitions 5 ./bannerclick/input-files/Tranco5Nov_Custom.csv
