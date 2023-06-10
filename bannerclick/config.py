@@ -31,8 +31,8 @@ START_POINT = 0
 STEP_SIZE = -1     # -1 to target complete target list
 URL_MODE = 1     # prepending: 1. https, 2. http
 NUM_BROWSERS = 8
-TIME_OUT = 60     # OpenWPM timeout = TIME_OUT*11, Selenium timeout = TIME_OUT TODO: Why is this 11x?
-SLEEP_TIME = 22      # the amount of time waits after loading the website TODO: Adjust to 30 to match paper
+TIME_OUT = 60     # OpenWPM timeout = TIME_OUT*11, Selenium timeout = TIME_OUT
+SLEEP_TIME = 22      # the amount of time waits after loading the website
 TEST_MODE_SLEEP = 0      # used for debugging
 ATTEMPTS = 2       # number of new try for finding banner
 ATTEMPT_STEP = 10      # time to wait before trying again

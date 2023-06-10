@@ -25,7 +25,7 @@ update the description of the field here.
 | crawl_id    | uint32 | False    |             |
 | instance_id | uint32 | False    |             |
 | site_url    | string | False    |             |
-| site_rank   | uint32 |          | 
+| site_rank   | uint32 |          |
 
 ## crawl_history
 
