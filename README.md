@@ -1,3 +1,4 @@
+> **Note:** This is a fork of [BannerClick](https://github.com/bannerclick/bannerclick) for use in [Duke CS+ 2023: Web Cookie Security and Privacy](https://cs.duke.edu/undergraduate/research/csplus). The original README file is below.
 
 BannerClick
 =======

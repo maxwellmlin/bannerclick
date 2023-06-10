@@ -11,6 +11,7 @@
   - [navigations](#navigations)
   - [callstacks](#callstacks)
   - [incomplete_visits](#incomplete_visits)
+  - [visits](#visits)
 
 This is an overview of all tables currently existing in OpenWPM. Over time we want to add
 a description for all fields and tables here.
@@ -220,3 +221,9 @@ update the description of the field here.
 | ----------- | ------ | -------- | ----------- |
 | visit_id    | int64  | False    |             |
 | instance_id | uint32 | False    |
+
+## visits
+
+| Column Name | Type   | nullable | Description |
+| ----------- | ------ | -------- | ----------- |
+| visit_id    | int64  |          | Not the same visit_id as used in other contexts. Seems to be similar to site_rank in site_visits. |
