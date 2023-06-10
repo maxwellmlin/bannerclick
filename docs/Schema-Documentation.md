@@ -11,6 +11,7 @@
   - [navigations](#navigations)
   - [callstacks](#callstacks)
   - [incomplete_visits](#incomplete_visits)
+  - [visits](#visits)
 
 This is an overview of all tables currently existing in OpenWPM. Over time we want to add
 a description for all fields and tables here.
