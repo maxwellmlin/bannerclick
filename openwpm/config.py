@@ -92,7 +92,7 @@ class BrowserParams(DataClassJsonMixin):
     seed_tar: Optional[Path] = field(
         default=None, metadata=DCJConfig(encoder=path_to_str, decoder=str_to_path)
     )
-    display_mode: Literal["native", "headless", "xvfb"] = "headless"
+    display_mode: Literal["native", "headless", "xvfb"] = "native"
     browser: str = "firefox"
     prefs: dict = field(default_factory=dict)
     tp_cookies: str = "always"
